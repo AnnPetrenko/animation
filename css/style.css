@@ -1,0 +1,328 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: auto;
+    max-width: 1170px;
+    position: relative;
+
+}
+
+body {
+    background-image: url("../images/b52f6cc6.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+div {
+    /*margin: 40px 0;*/
+    border-radius: 26px;
+    border: solid 1px #140d0d;
+}
+
+.red {
+    width: 860px;
+    height: 50px;
+    background-color: red;
+    margin: auto;
+    -webkit-animation: linear 0.3s tornado infinite;
+    position: absolute;
+    z-index: 0;
+
+}
+
+.green {
+    width: 500px;
+    height: 45px;
+    background-color: darkgreen;
+    position: absolute;
+    top: 50px;
+    -webkit-animation: linear 2s green infinite;
+    z-index: 1;
+
+}
+
+.blue {
+    width: 500px;
+    height: 40px;
+    background-color: blue;
+    position: absolute;
+    top: 125px;
+    right: 10px;
+    -webkit-animation: linear 2s blue infinite;
+
+}
+
+.pink {
+    width: 590px;
+    height: 40px;
+    background-color: pink;
+    position: absolute;
+    top: 190px;
+    -webkit-animation: linear 2s pink infinite;
+}
+
+.black {
+    width: 420px;
+    height: 30px;
+    background-color: black;
+    position: absolute;
+    top: 250px;
+    -webkit-animation: linear 2s black infinite;
+
+}
+
+.grey {
+    width: 350px;
+    height: 30px;
+    background-color: grey;
+    margin: auto;
+    top: 280px;
+    -webkit-animation: linear 2s grey infinite;
+    position: absolute;
+}
+
+.violet {
+    width: 200px;
+    height: 30px;
+    background-color: violet;
+    position: absolute;
+    top: 300px;
+    -webkit-animation: linear 2s violet infinite;
+}
+
+.dark-blue {
+    width: 150px;
+    height: 30px;
+    background-color: darkblue;
+    position: absolute;
+    top: 330px;
+    -webkit-animation: linear 2s dark-blue infinite;
+
+}
+
+.dark-grey {
+    width: 100px;
+    height: 30px;
+    background-color: darkgrey;
+    position: absolute;
+    top: 370px;
+    -webkit-animation: linear 2s dark-grey infinite;
+}
+
+.light-blue {
+    width: 60px;
+    height: 20px;
+    background-color: lightblue;
+    margin: auto;
+    top: 390px;
+    position: absolute;
+    -webkit-animation: linear 0.3s light-blue infinite;
+}
+
+@-webkit-keyframes tornado {
+    0% {
+        right: 50px;
+    }
+    25% {
+        top: 20px
+    }
+    50% {
+        left: 70px;
+    }
+
+    75% {
+        top: 30px;
+    }
+    100% {
+        left: 50px;
+    }
+}
+
+@-webkit-keyframes green {
+    0% {
+        left: 90px;
+    }
+    25% {
+        right: 150px;
+
+    }
+
+    50% {
+        top: 100px;
+    }
+    75% {
+        right: 40px
+    }
+    100% {
+        top: 30px;
+    }
+}
+
+@-webkit-keyframes blue {
+    0% {
+        right: 150px;
+    }
+    25% {
+        top: 90px;
+        right: 20px
+    }
+
+    50% {
+        top: 40px;
+    }
+    75% {
+        left: 100px
+    }
+    100% {
+        right: 20px;
+    }
+}
+
+@-webkit-keyframes pink {
+    0% {
+        right: 38%;
+
+    }
+    25% {
+        top: 120px;
+    }
+
+    50% {
+        left: 29%;
+        top: 120px;
+    }
+
+    75% {
+        top: 120px;;
+    }
+
+    100% {
+        right: 28%;;
+    }
+}
+
+@-webkit-keyframes black {
+    0% {
+        left: 300px;
+
+    }
+    25% {
+        top: 160px;
+    }
+
+    50% {
+        right: 120px;
+    }
+    75% {
+        top: 200px;
+    }
+    100% {
+        left: 190px;
+    }
+}
+
+@-webkit-keyframes grey {
+    0% {
+        left: 260px;
+
+    }
+    25% {
+        top: 200px;
+    }
+
+    50% {
+        left: 190px;
+    }
+    75% {
+        top: 230px;
+    }
+    100% {
+        left: 180px;
+    }
+}
+
+@-webkit-keyframes violet {
+    0% {
+        left: 290px;
+
+    }
+    25% {
+        top: 240px;
+    }
+
+    50% {
+        left: 210px;
+    }
+    75% {
+        top: 270px;
+    }
+    100% {
+        left: 200px;
+
+    }
+}
+
+@-webkit-keyframes dark-blue {
+    0% {
+        left: 290px;
+
+    }
+    25% {
+        top: 270px;
+    }
+
+    50% {
+        right: 690px;
+    }
+    75% {
+        top: 320px;
+    }
+    100% {
+        right: 700px;
+    }
+}
+
+@-webkit-keyframes dark-grey {
+    0% {
+        left: 370px;
+
+    }
+    25% {
+        top: 310px;
+    }
+
+    50% {
+        right: 630px;
+    }
+    75% {
+        top: 350px;
+    }
+    100% {
+        right: 600px;
+    }
+}
+
+@-webkit-keyframes light-blue {
+    0% {
+        right: 680px;
+
+    }
+    25% {
+        top: 370px;
+    }
+
+    50% {
+        right: 630px;
+    }
+    75% {
+        top: 410px;
+    }
+    100% {
+        right: 730px;
+    }
+}
